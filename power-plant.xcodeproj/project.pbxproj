@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE780D922BC9F8CD0015A823 /* power_plantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE780D912BC9F8CD0015A823 /* power_plantApp.swift */; };
+		CE780D942BC9F8CD0015A823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE780D932BC9F8CD0015A823 /* ContentView.swift */; };
+		CE780D962BC9F8CF0015A823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE780D952BC9F8CF0015A823 /* Assets.xcassets */; };
+		CE780D9A2BC9F8CF0015A823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE780D992BC9F8CF0015A823 /* Preview Assets.xcassets */; };
+		CE780DA42BC9F8CF0015A823 /* power_plantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE780DA32BC9F8CF0015A823 /* power_plantTests.swift */; };
+		CE780DAE2BC9F8CF0015A823 /* power_plantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE780DAD2BC9F8CF0015A823 /* power_plantUITests.swift */; };
+		CE780DB02BC9F8CF0015A823 /* power_plantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE780DAF2BC9F8CF0015A823 /* power_plantUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE780DA02BC9F8CF0015A823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE780D862BC9F8CD0015A823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE780D8D2BC9F8CD0015A823;
+			remoteInfo = "power-plant";
+		};
+		CE780DAA2BC9F8CF0015A823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE780D862BC9F8CD0015A823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE780D8D2BC9F8CD0015A823;
+			remoteInfo = "power-plant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE780D8E2BC9F8CD0015A823 /* power-plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "power-plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE780D912BC9F8CD0015A823 /* power_plantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = power_plantApp.swift; sourceTree = "<group>"; };
+		CE780D932BC9F8CD0015A823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE780D952BC9F8CF0015A823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE780D972BC9F8CF0015A823 /* power_plant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = power_plant.entitlements; sourceTree = "<group>"; };
+		CE780D992BC9F8CF0015A823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE780D9F2BC9F8CF0015A823 /* power-plantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "power-plantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE780DA32BC9F8CF0015A823 /* power_plantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = power_plantTests.swift; sourceTree = "<group>"; };
+		CE780DA92BC9F8CF0015A823 /* power-plantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "power-plantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE780DAD2BC9F8CF0015A823 /* power_plantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = power_plantUITests.swift; sourceTree = "<group>"; };
+		CE780DAF2BC9F8CF0015A823 /* power_plantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = power_plantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE780D8B2BC9F8CD0015A823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780D9C2BC9F8CF0015A823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780DA62BC9F8CF0015A823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE780D852BC9F8CD0015A823 = {
+			isa = PBXGroup;
+			children = (
+				CE780D902BC9F8CD0015A823 /* power-plant */,
+				CE780DA22BC9F8CF0015A823 /* power-plantTests */,
+				CE780DAC2BC9F8CF0015A823 /* power-plantUITests */,
+				CE780D8F2BC9F8CD0015A823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE780D8F2BC9F8CD0015A823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE780D8E2BC9F8CD0015A823 /* power-plant.app */,
+				CE780D9F2BC9F8CF0015A823 /* power-plantTests.xctest */,
+				CE780DA92BC9F8CF0015A823 /* power-plantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE780D902BC9F8CD0015A823 /* power-plant */ = {
+			isa = PBXGroup;
+			children = (
+				CE780D912BC9F8CD0015A823 /* power_plantApp.swift */,
+				CE780D932BC9F8CD0015A823 /* ContentView.swift */,
+				CE780D952BC9F8CF0015A823 /* Assets.xcassets */,
+				CE780D972BC9F8CF0015A823 /* power_plant.entitlements */,
+				CE780D982BC9F8CF0015A823 /* Preview Content */,
+			);
+			path = "power-plant";
+			sourceTree = "<group>";
+		};
+		CE780D982BC9F8CF0015A823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE780D992BC9F8CF0015A823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE780DA22BC9F8CF0015A823 /* power-plantTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE780DA32BC9F8CF0015A823 /* power_plantTests.swift */,
+			);
+			path = "power-plantTests";
+			sourceTree = "<group>";
+		};
+		CE780DAC2BC9F8CF0015A823 /* power-plantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE780DAD2BC9F8CF0015A823 /* power_plantUITests.swift */,
+				CE780DAF2BC9F8CF0015A823 /* power_plantUITestsLaunchTests.swift */,
+			);
+			path = "power-plantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE780D8D2BC9F8CD0015A823 /* power-plant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE780DB32BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plant" */;
+			buildPhases = (
+				CE780D8A2BC9F8CD0015A823 /* Sources */,
+				CE780D8B2BC9F8CD0015A823 /* Frameworks */,
+				CE780D8C2BC9F8CD0015A823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "power-plant";
+			productName = "power-plant";
+			productReference = CE780D8E2BC9F8CD0015A823 /* power-plant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE780D9E2BC9F8CF0015A823 /* power-plantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE780DB62BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plantTests" */;
+			buildPhases = (
+				CE780D9B2BC9F8CF0015A823 /* Sources */,
+				CE780D9C2BC9F8CF0015A823 /* Frameworks */,
+				CE780D9D2BC9F8CF0015A823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE780DA12BC9F8CF0015A823 /* PBXTargetDependency */,
+			);
+			name = "power-plantTests";
+			productName = "power-plantTests";
+			productReference = CE780D9F2BC9F8CF0015A823 /* power-plantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE780DA82BC9F8CF0015A823 /* power-plantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE780DB92BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plantUITests" */;
+			buildPhases = (
+				CE780DA52BC9F8CF0015A823 /* Sources */,
+				CE780DA62BC9F8CF0015A823 /* Frameworks */,
+				CE780DA72BC9F8CF0015A823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE780DAB2BC9F8CF0015A823 /* PBXTargetDependency */,
+			);
+			name = "power-plantUITests";
+			productName = "power-plantUITests";
+			productReference = CE780DA92BC9F8CF0015A823 /* power-plantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE780D862BC9F8CD0015A823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE780D8D2BC9F8CD0015A823 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CE780D9E2BC9F8CF0015A823 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE780D8D2BC9F8CD0015A823;
+					};
+					CE780DA82BC9F8CF0015A823 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE780D8D2BC9F8CD0015A823;
+					};
+				};
+			};
+			buildConfigurationList = CE780D892BC9F8CD0015A823 /* Build configuration list for PBXProject "power-plant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE780D852BC9F8CD0015A823;
+			productRefGroup = CE780D8F2BC9F8CD0015A823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE780D8D2BC9F8CD0015A823 /* power-plant */,
+				CE780D9E2BC9F8CF0015A823 /* power-plantTests */,
+				CE780DA82BC9F8CF0015A823 /* power-plantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE780D8C2BC9F8CD0015A823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE780D9A2BC9F8CF0015A823 /* Preview Assets.xcassets in Resources */,
+				CE780D962BC9F8CF0015A823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780D9D2BC9F8CF0015A823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780DA72BC9F8CF0015A823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE780D8A2BC9F8CD0015A823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE780D942BC9F8CD0015A823 /* ContentView.swift in Sources */,
+				CE780D922BC9F8CD0015A823 /* power_plantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780D9B2BC9F8CF0015A823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE780DA42BC9F8CF0015A823 /* power_plantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE780DA52BC9F8CF0015A823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE780DB02BC9F8CF0015A823 /* power_plantUITestsLaunchTests.swift in Sources */,
+				CE780DAE2BC9F8CF0015A823 /* power_plantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE780DA12BC9F8CF0015A823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE780D8D2BC9F8CD0015A823 /* power-plant */;
+			targetProxy = CE780DA02BC9F8CF0015A823 /* PBXContainerItemProxy */;
+		};
+		CE780DAB2BC9F8CF0015A823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE780D8D2BC9F8CD0015A823 /* power-plant */;
+			targetProxy = CE780DAA2BC9F8CF0015A823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE780DB12BC9F8CF0015A823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE780DB22BC9F8CF0015A823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE780DB42BC9F8CF0015A823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "power-plant/power_plant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"power-plant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE780DB52BC9F8CF0015A823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "power-plant/power_plant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"power-plant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE780DB72BC9F8CF0015A823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/power-plant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/power-plant";
+			};
+			name = Debug;
+		};
+		CE780DB82BC9F8CF0015A823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/power-plant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/power-plant";
+			};
+			name = Release;
+		};
+		CE780DBA2BC9F8CF0015A823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "power-plant";
+			};
+			name = Debug;
+		};
+		CE780DBB2BC9F8CF0015A823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nutrihealth.power-plantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "power-plant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE780D892BC9F8CD0015A823 /* Build configuration list for PBXProject "power-plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE780DB12BC9F8CF0015A823 /* Debug */,
+				CE780DB22BC9F8CF0015A823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE780DB32BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE780DB42BC9F8CF0015A823 /* Debug */,
+				CE780DB52BC9F8CF0015A823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE780DB62BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE780DB72BC9F8CF0015A823 /* Debug */,
+				CE780DB82BC9F8CF0015A823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE780DB92BC9F8CF0015A823 /* Build configuration list for PBXNativeTarget "power-plantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE780DBA2BC9F8CF0015A823 /* Debug */,
+				CE780DBB2BC9F8CF0015A823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE780D862BC9F8CD0015A823 /* Project object */;
+}
